@@ -1,0 +1,56 @@
+@import "./layout.scss";
+@import "./globals.scss";
+@import "./typography.scss";
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #232d4d;
+  font-family: 'Montserrat', 'Karla';
+  
+  #app {
+    height: 100%;
+
+    .app-layout {
+      display: flex;
+      height: 100%;
+
+      .Sidebar {
+        width: 210px;
+        height: 100%;
+        background: url('~@/assets/img/sidebar.svg') no-repeat;
+        background-size: cover;
+      }
+
+      .app-content {
+        height: 100%;
+        flex-grow: 100;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); 
+}
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.3); 
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}

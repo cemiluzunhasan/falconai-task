@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="triplekill" transform="translate(-1370 465)">
+    <path id="back" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(1370 -465)" fill="#17172e"/>
+    <path id="triple" d="M16.072,8l8,14h-16Z" transform="translate(1368.928 -465)" fill="#7ad0d7"/>
+  </g>
+</svg>

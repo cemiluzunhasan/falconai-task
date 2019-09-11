@@ -1,0 +1,71 @@
+// Text Colors
+.text-sand {
+  color: $sand;
+}
+.text-red {
+  color: $red;
+}
+.text-white {
+  color: $white;
+}
+.text-yellow {
+  color: $yellow;
+}
+.text-green {
+  color: $green;
+}
+.text-yellowlight {
+  color: $yellow-light;
+}
+.text-darkyellow {
+  color: $dark-yellow;
+}
+.text-sandlight {
+  color: $sand-light;
+}
+.text-lila {
+  color: $lila;
+}
+.text {
+  color: $sand;
+}
+
+// Fonts 
+
+.text-xs {
+  font-size: 8px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+.text-md {
+  font-size: 14px;
+}
+.text-lg {
+  font-size: 16px;
+}
+
+.text-xlg {
+  font-size: 18px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Montserrat', 'Karla';
+}
